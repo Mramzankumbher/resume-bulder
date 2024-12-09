@@ -1,0 +1,100 @@
+body{
+    font-family: 'Arial',sans-serif;
+    background-color:#f4f4f4;
+    margin:0;
+    padding:150px;
+}
+
+
+
+.resume-container{
+    display:flex;
+    background-color:white;
+    width:90%;
+    margin:0 auto;
+    border-radius:10px;
+    box-shadow:0 0 20px rgba(0,0,0,0.1);
+}
+
+.left-section{
+    background-color:skyblue;
+    color:white;
+    padding:20px;
+    width:35%;
+    text-align:center;
+    border-right:5px solid #e63946;
+}
+.profile-pic{
+    width:150px;
+    height:150px;
+    margin-top:10%;
+    border-radius:50%;
+    border:5px solid #e639;
+    margin-bottom:20px;
+    background-color:#2222;
+}
+
+ h3{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size:18px;
+    padding:2%;
+    margin:20px 0 10px;
+    margin-left:10px;
+    color:#2222;
+    border-radius:10px;
+    box-shadow: 0 0 15px #e63946;
+    margin-top:5%;
+    margin-bottom:5%;
+}
+
+#personal-info p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    margin:5px 0;
+}
+
+#education p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#skills ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#work-experience p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#toggle-skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e622;
+    border-radius: 5px;
+    font-size:18px;
+}
+
+.right-section h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:skyblue;
+    border-radius: 5px;
+    margin-left:15px;
+    width:500px;
+}
+#toggle-skills:hover{
+    background-color:#ff83;
+}
